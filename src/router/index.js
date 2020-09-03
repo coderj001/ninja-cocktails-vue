@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Index from "@/components/Index";
 import AddCocktail from "@/components/AddCocktail";
+import EditCocktail from "@/components/EditCocktail";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/add-cocktail",
     name: "AddCocktail",
     component: AddCocktail
+  },
+  {
+    path: "/edit-cocktail/:cocktail_slug",
+    name: "EditCocktail",
+    component: EditCocktail
   }
 ];
 

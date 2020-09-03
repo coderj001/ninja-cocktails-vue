@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .add-cocktail-recipe {
     margin-top: 60px;
     padding: 20px;
@@ -97,7 +97,7 @@ export default {
     margin: 20px auto;
     position: relative;
 }
-.add-cocktail-recipe .delete{
+.add-cocktail-recipe .delete {
     position: absolute;
     right: 0;
     bottom: 16px;
