@@ -27,9 +27,15 @@ export default {
     },
     methods: {
         deleteCocktail(id) {
-            this.cocktails = this.cocktails.filter((cocktail) => {
-                return cocktail.id != id;
-            });
+            // Delete doc from firebase
+            db.collection("cocktails")
+                .doc(id)
+                .delete()
+                .then(() => {
+                    this.cocktails = this.cocktails.filter((cocktail) => {
+                        return cocktail.id != id;
+                    });
+                });
         },
     },
     created() {

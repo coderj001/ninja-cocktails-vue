@@ -1,21 +1,19 @@
 <template>
-  <div id="app">
-    <Navbar />
-    <Index />
-  </div>
+    <div id="app">
+        <Navbar />
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
-import Index from '@/components/Index.vue'
+import Navbar from "./components/Navbar.vue";
 
 export default {
-  name: 'App',
-  components: {
-    Navbar,
-    Index,
-  }
-}
+    name: "App",
+    components: {
+        Navbar,
+    },
+};
 </script>
 
 <style></style>
