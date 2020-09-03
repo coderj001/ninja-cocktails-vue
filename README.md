@@ -1,4 +1,17 @@
 # ninja-cocktails
+<br/>
+[![https://imgur.com/CZrVR2c.png](https://imgur.com/CZrVR2c.png)](https://imgur.com/CZrVR2c.png)
+
+## Purpose
+
+This simple curd application to improve my skill with vuejs and vue-route.
+
+## Tools & Tech
+
+- vue
+- vue router
+- materializecss
+- vim(editor)
 
 ## Project setup
 
@@ -27,4 +40,3 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-Ninja Cocktail Vue Project
