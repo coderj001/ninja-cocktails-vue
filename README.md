@@ -1,6 +1,6 @@
 # ninja-cocktails
 <br/>
-![image](https://imgur.com/CZrVR2c.png)
+[![https://imgur.com/CZrVR2c.png](https://imgur.com/CZrVR2c.png)](https://imgur.com/CZrVR2c.png)
 
 ## Purpose
 
